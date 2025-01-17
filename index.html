@@ -14,7 +14,7 @@
       <nav class="header__menu">
         <ul class="header__links-list">
           <li class="header__links-list-item header__links-list-item_no-bullit">
-            <a class="header_list_link_active" href="#header">главная</a>
+            <a class="header_list_link link_active" href="#header">главная</a>
           </li>
           <li class="header__links-list-item">
             <a class="header_list_link" href="#lots">посмотреть лоты</a>
@@ -24,13 +24,13 @@
           </li>
         </ul>
       </nav>
-      <a class="header_logo_link" href="#0">
+      <a class="header_logo_link" >
         <img class="header__logo-image" src="./images/logo-black.svg" alt="логотип для белого фона">
       </a>
-      <address class="header__address">
-        <a class="header_text_link" href="tel:+99995555555">+9 999 555 5555</a>
+      <address class="address">
+        <a class="address__link " href="tel:+99995555555">+9 999 555 5555</a>
         <br>
-        <a class="header_text_link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <a class="address__link " href="mailto:info@sobaka.ge">info@sobaka.ge</a>
         <p class="header_text">наб. Принсенграхт 263- <br>265, Амстердам</p>
       </address>
     </header>
@@ -48,20 +48,20 @@
         </div>
       </section>
       <section class="lots" id="lots">
-        <h1 class="lots__heading">
+        <h2 class="lots__heading">
           Лоты
-        </h1>
+        </h2>
         <ul class="lots__card-list">
           <li class="lots__card-list-item">
             <a class="card-link" href="#0">
               <article class="card card_type_film">
                 <div class="overlay"></div>
-                <h1 class="card__title">
+                <h3 class="card__title">
                   Фильм режиссёра,
                   который бросил
                   киношколу
-                </h1>
-                <p class="card__text">
+                </h3>
+                <p class="text card__text">
                   Не просто бросил, 
                   а ушёл с первой лекции. Какой
                   была бы ваша ставка, 
@@ -75,13 +75,13 @@
             <a class="card-link" href="#0">
               <article class="card card_type_book">
                 <div class="overlay"></div>
-                <h1 class="card__title">
+                <h3 class="card__title">
                   Книга, где описан 
                   один скучный день 
                   из жизни 
                   рекламного агента
-                </h1>
-                <p class="card__text">
+                </h3>
+                <p class="text card__text">
                   Объёмом почти в тысячу страниц. Иногда без знаков препинания и 
                   с переходами на древнеанглийский. В ней одновременно рассказывается 
                   о 16 июня 1904 года и об истории литературы, начиная с античных времён. 
@@ -95,11 +95,11 @@
             <a class="card-link" href="#0">
               <article class="card card_type_picture">
                 <div class="overlay"></div>
-                <h1 class="card__title">
+                <h3 class="card__title">
                   Картина, которую повторит 
                   даже 5-летний сын маминой подруги
-                </h1>
-                <p class="card__text">
+                </h3>
+                <p class="text card__text">
                   Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то 
                   похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... 
                   Сколько бы вы на такое поставили, если бы не знали, что это 
@@ -115,18 +115,18 @@
         <div class="about__circle">
           <img class="about__image" src="./images/logo-white.svg" alt="логотип для черного фона">
         </div>
-        <div class="about__content">
-          <h1 class="about__title">
+        <article class="about__content">
+          <h2 class="about__title">
             Об аукционе
-          </h1>
-          <p class="about__text">
+          </h2>
+          <p class="text about__text about__text-primary">
             Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата.
             Наши лоты вообще не должны были попасть ни на один аукцион. 
             Потому что кому нужен дневник девочки-подростка или картина, 
             которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, 
             созданные любителями?
           </p>
-          <p class="about__text_2">
+          <p class="text about__text">
             Слишком сложные или, наоборот, слишком простые. Опережающие своё время. 
             В пух и прах растерзанные критиками. Непринятые и непонятые. 
             Когда-то они казались просто неудачными. Но, несмотря
@@ -134,20 +134,20 @@
             невозможно представить современную культуру. Когда в эти вещи не верил никто, 
             продолжали верить их создатели. И сейчас эти лоты стали культовыми.
           </p> 
-        </div>
+        </article>
       </section>
     </main>
     <footer class="footer">
-      <address class="footer__address">
-        <a class="header_text_link" href="tel:+99995555555">+9 999 555 5555</a>
+      <address class="address footer_address">
+        <a class="address__link" href="tel:+99995555555">+9 999 555 5555</a>
         <br>
-        <a class="header_text_link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <a class="address__link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
         <p class="footer-text">наб. Принсенграхт 263-265, <br>Амстердам</p>
       </address>
       <nav class="footer__menu">
         <ul class="footer__menu-list">
           <li class="footer__menu-list-item">
-            <a class="footer__menu-link_active" href="#header">
+            <a class="footer__menu-link footer__menu-link-active" href="#header">
               главная
             </a>
           </li>
